@@ -4,8 +4,20 @@ namespace TechJobsOO
     public class CoreCompetency
     {
         private int id;
+        public int Id
+        {
+            get { return id; }
+            internal set { id = Id; }
+        }
+
         private static int nextId = 1;
+
         private string value;
+        public string Value
+        {
+            get { return value; }
+            internal set { Value = value; }
+        }
 
         // TODO: Change the fields to auto-implemented properties.
 
