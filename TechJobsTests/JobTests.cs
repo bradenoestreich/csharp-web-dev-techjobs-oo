@@ -77,8 +77,8 @@ namespace TechJobsTests
             string oopsieTunesTestObj = $"\nID: {oopsieTunes.Id}\n" +
                 $"Name: {oopsieTunes.Name}\n" +
                 $"Employer: {oopsieTunes.EmployerName.Value}\n" +
-                $"Location: {oopsieTunes.EmployerLocation.Value}\n" +
-                $"Position Type: {oopsieTunes.JobType.Value}\n" +
+                $"Location: Data not available.\n" +
+                $"Position Type: Data not available.\n" +
                 $"Core Competency: {oopsieTunes.JobCoreCompetency.Value}\n";
 
             Assert.AreEqual(jobString, oopsieTunesTestObj);
